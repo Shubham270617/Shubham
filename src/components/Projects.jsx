@@ -75,8 +75,8 @@ const ProjectCard = ({ project }) => {
       <div className="flex flex-col items-center gap-8 md:flex-row md:gap-24">
         <img
           src={project.image}
-          alt=""
-          className="w-4 cursor-pointer rounded-2xl transition-all duration-300 hover:scale-105 md:w-[300px]"
+          alt={project.title}
+          className="w-full max-w-[300px] sm:w-[200px] md:w-[300px] cursor-pointer rounded-2xl transition-all duration-300 hover:scale-105"
         />
 
         <div className="flex flex-col gap-5">
@@ -99,7 +99,6 @@ const ProjectCard = ({ project }) => {
             ))}
           </div>
 
-          
           <div className="flex gap-4 mt-4">
             <motion.a
               href={project.link}
