@@ -17,7 +17,7 @@ const experienceData = [
       title: 'Talent Acquisition Specialist',
       company: 'WellTech Infotech Solutions',
       icon: <FaBuilding className="w-5 h-5 text-purple-400" />,
-      period: 'Jan 2022  Aug 2024',
+      period: 'Jan 2024 - Aug 2024',
         description: [
             'Conducted full-cycle recruitment for technical positions.',
             'Developed and maintained relationships with candidates and hiring managers.',
@@ -28,7 +28,7 @@ const experienceData = [
         title: 'Web Developer',
         company: 'Magneto PVT LTD',
         icon: <FaCode className="w-5 h-5 text-pink-400" />,
-        period: 'Jan 2022  Dec 2023',
+        period: 'Jan 2022 - Dec 2023',
           description: [
             'Highly qualified in Full Stack Developer and proficient in both front-end and back-end technologies used in web development.', 
             'Possess a broad skill set that allows me to work on all aspects of a web application, from server-side logic and databases to user interfaces and client-side scripting.', 

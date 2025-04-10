@@ -20,8 +20,9 @@ const educationData = [
     icon: <FaUniversity className="w-5 h-5 text-pink-400" />,
     period: '2015-2017',
     highlights: [
-      'Secured 90% with top scores in Computer Science & Math.',
-      'Participated in national coding and robotics competitions.'
+      'Secured 90% with top scores in Maths & Economics.',
+      'Participated in national coding and robotics competitions.',
+      'This unique blend equips me with both analytical rigor and economic insight—allowing me to understand problems from both scientific and strategic perspectives.'
     ]
   }
 ]

@@ -102,7 +102,7 @@ const menuOpen = () =>{
     animate={{ x: 0 }}
     exit={{ x: 300 }}
     transition={{ duration: 0.3 }}
-    className={`fixed top-[84px] right-0 z-50 h-screen w-2/3 bg-black/90 p-6 backdrop-blur-lg shadow-lg border-l border-pink-500/20 ${isOpen ? "block" : "hidden"}`}>
+    className={`fixed top-[84px] right-0 z-50 h-screen w-2/3 bg-black/90 p-6 backdrop-blur-lg shadow-lg border-l border-pink-500/20 ${isOpen ? "block" : "md:hidden"}`}>
         <ul className="flex flex-col gap-8">
         <li>
           <a
