@@ -1,12 +1,39 @@
-# React + Vite
+# 🚀 Shubham Sinha Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website built with **React**, **Tailwind CSS**, and **Framer Motion**. This is where I showcase my projects, experience, and skills as a developer.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 [View Portfolio](https://shubham-teal.vercel.app/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧰 Tech Stack
+
+- ⚛️ React
+- 💨 Tailwind CSS
+- 🎞️ Framer Motion
+- 📧 EmailJS (Contact Form)
+- 🔥 React Hot Toast (Notifications)
+- 🎨 React Icons
+
+---
+
+
+## 📂 Features
+
+- 💼 Experience & Education Timeline
+- 🖼️ Project Showcase
+- 📬 Contact Form with EmailJS integration
+- 🌙 Responsive and Animated UI
+- 🌈 Clean and modern design
+
+---
+
+## 🛠️ Installation
+
+```bash
+git clone https://github.com/your-username/your-portfolio.git
+cd your-portfolio
+npm install
+npm start
