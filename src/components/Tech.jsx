@@ -52,10 +52,8 @@ export const Tech = () => {
     animate={{ opacity: [0, 1, 0.9, 1], y: [20, 0, 2, 0] }}
     transition={{
       duration: 2,
-      repeat: Infinity,
-      repeatType: "loop"
     }}
-  className="bg-gradient-to-r from-pink-500 via-purple-500 to-sky-500 bg-clip-text text-4xl font-extrabold text-transparent md:text-6xl tracking-wide drop-shadow-lg"
+  className="bg-gradient-to-r from-pink-500 via-purple-500 to-sky-500 bg-clip-text text-4xl font-extrabold text-transparent md:text-6xl tracking-wide drop-shadow-lg p-3"
 >
   Technologies
 </motion.h1>

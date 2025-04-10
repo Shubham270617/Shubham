@@ -14,7 +14,7 @@ const menuOpen = () =>{
 
 
   return (
-    <nav className="fixed top-0 z-0 flex w-full items-center justify-between border-b border-b-gray-700 bg-black/70 px-16 py-6 text-white backdrop-blur-md md:justify-evenly">
+    <nav className="fixed top-0 z-50 flex w-full items-center justify-between border-b border-b-gray-700 bg-black/70 px-16 py-6 text-white backdrop-blur-md md:justify-evenly">
       <a
         href="#home"
         className="bg-gradient-to-r from-blue-500 via-cyan-500 to-purple-500 bg-clip-text text-transparent text-4xl font-bold tracking-wide font-[Orbitron] hover:scale-105 transition duration-300"

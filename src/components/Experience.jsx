@@ -50,7 +50,7 @@ const experienceData = [
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: [0, 1], y: [20, 0] }}
           transition={{ duration: 1.2 }}
-          className="bg-gradient-to-r from-pink-500 via-purple-500 to-sky-500 bg-clip-text text-4xl md:text-6xl font-extrabold text-transparent tracking-wide drop-shadow-xl"
+          className="bg-gradient-to-r from-pink-500 via-purple-500 to-sky-500 bg-clip-text text-4xl md:text-6xl font-extrabold text-transparent tracking-wide drop-shadow-xl p-3"
         >
           My Experience
         </motion.h1>
