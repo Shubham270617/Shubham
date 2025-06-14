@@ -9,7 +9,9 @@ import {
   BiLogoPython,
   BiLogoReact,
   BiLogoTailwindCss,
-  BiLogoTypescript
+  BiLogoTypescript,
+  BiLogoGithub,
+  BiLogoGit
 } from 'react-icons/bi';
 import { motion } from 'framer-motion';
 
@@ -23,7 +25,9 @@ const icons = [
   { icon: BiLogoNodejs, color: 'text-lime-500', name: 'Node.js' },
   { icon: BiLogoCss3, color: 'text-blue-300', name: 'CSS3' },
   { icon: BiLogoPostgresql, color: 'text-indigo-400', name: 'PostgreSQL' },
-  { icon: BiLogoPython, color: 'text-yellow-400', name: 'Python' }
+  { icon: BiLogoPython, color: 'text-yellow-400', name: 'Python' },
+  { icon: BiLogoGit, color: 'text-red-500', name: 'Git' },
+  { icon: BiLogoGithub, color: 'text-white', name: 'GitHub' }
 ];
 
 const container = {
@@ -48,16 +52,13 @@ export const Tech = () => {
       className="flex min-h-[70vh] w-full flex-col items-center justify-center gap-16 md:gap-32"
     >
       <motion.h1
-    initial={{ opacity: 0, y: 20 }}
-    animate={{ opacity: [0, 1, 0.9, 1], y: [20, 0, 2, 0] }}
-    transition={{
-      duration: 2,
-    }}
-  className="bg-gradient-to-r from-pink-500 via-purple-500 to-sky-500 bg-clip-text text-4xl font-extrabold text-transparent md:text-6xl tracking-wide drop-shadow-lg p-3"
->
-  Technologies
-</motion.h1>
-
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: [0, 1, 0.9, 1], y: [20, 0, 2, 0] }}
+        transition={{ duration: 2 }}
+        className="bg-gradient-to-r from-pink-500 via-purple-500 to-sky-500 bg-clip-text text-4xl font-extrabold text-transparent md:text-6xl tracking-wide drop-shadow-lg p-3"
+      >
+        Technologies
+      </motion.h1>
 
       <motion.div
         className="grid grid-cols-2 gap-8 p-5 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5"

@@ -24,7 +24,7 @@ export const Footer = () => {
             transition={{ duration: 0.8 }}
             className="text-3xl md:text-4xl font-extrabold bg-gradient-to-r from-indigo-500 via-sky-500 to-blue-800 bg-clip-text text-transparent drop-shadow-md tracking-wide"
           >
-            🚀 Shubham's Portfolio
+            Shubham's Portfolio
           </motion.h2>
         </motion.div>
 
@@ -70,8 +70,8 @@ export const Footer = () => {
         transition={{ delay: 0.5, duration: 1 }}
         className="text-center text-sm text-gray-300"
       >
-        © {new Date().getFullYear()} Shubham Sinha. All rights reserved. |
-        Designed & Built with 💻 using React & Framer Motion.
+        © {new Date().getFullYear()} Shubham Sinha. All rights reserved. ||
+        The place where ideas turn into interactive experience.
       </motion.p>
     </motion.footer>
   );

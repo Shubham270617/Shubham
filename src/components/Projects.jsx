@@ -1,4 +1,5 @@
 import React from "react";
+import image0 from "/0.png";
 import image1 from "/1.png";
 import image2 from "/2.png";
 import image3 from "/3.png";
@@ -9,6 +10,26 @@ import { SiTailwindcss } from "react-icons/si";
 import { BiLinkAlt } from "react-icons/bi";
 
 const projectData = [
+  {
+    title: "Library Managemnet System",
+    description:
+      "A comprehensive Library Management System designed to streamline the management of library operations. This system allows librarians to efficiently manage book inventories, track member registrations, and handle book loans and returns. It features a user-friendly interface for both librarians and members, ensuring a smooth experience in managing library resources.",
+    image: image0,
+   technologies: [
+  // Backend
+  "Node.js", "Express.js", "MongoDB", "JWT", "SMTP", "Cloudinary",
+
+  // Frontend
+  "React", "Tailwind CSS", "Framer Motion", "JavaScript"
+],
+    link: "https://lms-frontend-beta-nine.vercel.app",
+    github: {
+    frontend: "https://github.com/Shubham270617/LMS-Frontend",
+    backend: "https://github.com/Shubham270617/LMS--Backend"
+  }
+  },
+  
+  
   {
     title: "Framer Motion",
     description:
@@ -100,30 +121,59 @@ const ProjectCard = ({ project }) => {
           </div>
 
           <div className="flex gap-4 mt-4">
-            <motion.a
-              href={project.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="rounded-lg bg-blue-600 px-4 py-2 text-white transition hover:bg-blue-700"
-            >
-              <FaExternalLinkAlt className="text-sm" />
-              Live Demo
-            </motion.a>
+  {project.link && (
+    <motion.a
+      href={project.link}
+      target="_blank"
+      rel="noopener noreferrer"
+      whileHover={{ scale: 1.05 }}
+      whileTap={{ scale: 0.95 }}
+      className="rounded-lg bg-blue-600 px-4 py-2 text-white transition hover:bg-blue-700"
+    >
+      <FaExternalLinkAlt className="text-sm" />
+      Live Demo
+    </motion.a>
+  )}
 
-            <motion.a
-              href={project.github}
-              target="_blank"
-              rel="noopener noreferrer"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="rounded-lg bg-gray-700 px-4 py-2 text-white transition hover:bg-gray-800"
-            >
-              <FaGithub className="text-lg" />
-              View Code
-            </motion.a>
-          </div>
+  {typeof project.github === "string" ? (
+    <motion.a
+      href={project.github}
+      target="_blank"
+      rel="noopener noreferrer"
+      whileHover={{ scale: 1.05 }}
+      whileTap={{ scale: 0.95 }}
+      className="rounded-lg bg-gray-700 px-4 py-2 text-white transition hover:bg-gray-800"
+    >
+      <FaGithub className="text-lg" />
+      View Code
+    </motion.a>
+  ) : (
+    <>
+      <motion.a
+        href={project.github.frontend}
+        target="_blank"
+        rel="noopener noreferrer"
+        whileHover={{ scale: 1.05 }}
+        whileTap={{ scale: 0.95 }}
+        className="rounded-lg bg-gray-700 px-4 py-2 text-white transition hover:bg-gray-800"
+      >
+        <FaGithub className="text-lg" />
+        Frontend Code
+      </motion.a>
+      <motion.a
+        href={project.github.backend}
+        target="_blank"
+        rel="noopener noreferrer"
+        whileHover={{ scale: 1.05 }}
+        whileTap={{ scale: 0.95 }}
+        className="rounded-lg bg-gray-700 px-4 py-2 text-white transition hover:bg-gray-800"
+      >
+        <FaGithub className="text-lg" />
+        Backend Code
+      </motion.a>
+    </>
+  )}
+</div>
         </div>
       </div>
     </ScrollAnimation>

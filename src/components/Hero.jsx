@@ -25,11 +25,11 @@ className='flex max-w-[600px] flex-col items-center justify-center gap-3 text-ce
     <h1 className="bg-gradient-to-r from-blue-600  to-pink-500 bg-clip-text text-transparent opacity-80 text-5xl font-light md:text-7xl">Shubham Sinha</h1>
     <h3 className="bg-gradient-to-r from-pink-600  to-blue-500 bg-clip-text text-transparent opacity-80 text-2xl md:text-3xl" >MERN Stack Developer</h3>
     <p className='md:text-base text-pretty text-sm text-gray-300'>
-    🚀 As a passionate MERN Stack Developer, I thrive on building full-stack web applications using MongoDB 🍃, Express.js ⚙️, React.js ⚛️, and Node.js 🟢. <br/>From designing seamless user interfaces 🎨 to crafting efficient APIs 🔗, I love turning complex ideas into dynamic, real-world solutions 💡.
+    As a passionate MERN Stack Developer, I thrive on building full-stack web applications using MongoDB, Express.js, React.js, and Node.js. <br/>From designing seamless user interfaces to crafting efficient APIs, I love turning complex ideas into dynamic, real-world solutions.
 <br/>
-On the backend side, I specialize in creating robust RESTful APIs 🌐, managing databases with MongoDB 🗂️, handling user authentication 🔐, and implementing secure, scalable server-side logic 🧠. I enjoy working with middleware 🧩, ensuring smooth data flow between front and back, and deploying applications with tools like Docker 🐳 and cloud services ☁️.
+On the backend side, I specialize in creating robust RESTful APIs, managing databases with MongoDB, handling user authentication, and implementing secure, scalable server-side logic. I enjoy working with middleware, ensuring smooth data flow between front and back, and deploying applications with tools like Docker and cloud services.
 <br/>
-Whether it's debugging tricky issues 🐞, optimizing performance ⚡, or collaborating with teams 🤝, I bring energy, creativity, and clean code 🧼 to every project. Always learning 📚, always building 🛠️ — let's turn code into magic! ✨
+Whether it's debugging tricky issues, optimizing performance, or collaborating with teams, I bring energy, creativity, and clean code to every project. Always learning, always building — let's turn code into magic! 
     </p>
 </motion.div>
 
