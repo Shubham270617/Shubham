@@ -13,12 +13,16 @@ import {
   BiLogoGithub,
   BiLogoGit
 } from 'react-icons/bi';
+import { SiNextdotjs, SiFramer, SiThreedotjs } from 'react-icons/si';
 import { motion } from 'framer-motion';
 
 const icons = [
   { icon: BiLogoTypescript, color: 'text-sky-600', name: 'TypeScript' },
   { icon: BiLogoJavascript, color: 'text-yellow-500', name: 'JavaScript' },
   { icon: BiLogoReact, color: 'text-blue-400', name: 'React' },
+  { icon: SiNextdotjs, color: 'text-white', name: 'Next.js' },
+  { icon: SiFramer, color: 'text-blue-500', name: 'Framer Motion' },
+  { icon: SiThreedotjs, color: 'text-purple-400', name: 'Three.js' },
   { icon: BiLogoHtml5, color: 'text-orange-400', name: 'HTML5' },
   { icon: BiLogoTailwindCss, color: 'text-cyan-400', name: 'Tailwind' },
   { icon: BiLogoMongodb, color: 'text-green-600', name: 'MongoDB' },
@@ -35,13 +39,13 @@ const container = {
   visible: {
     opacity: 1,
     transition: {
-      staggerChildren: 0.1
+      staggerChildren: 0.08
     }
   }
 };
 
 const item = {
-  hidden: { opacity: 0, y: 50 },
+  hidden: { opacity: 0, y: 40 },
   visible: { opacity: 1, y: 0 }
 };
 
@@ -71,14 +75,17 @@ export const Tech = () => {
           <motion.div
             key={index}
             variants={item}
-            className="group flex flex-col items-center gap-3"
+            className="relative group flex flex-col items-center gap-3"
           >
-            <Icon
-              className={`cursor-pointer text-[70px] sm:text-[90px] md:text-[100px] ${color} transition-all duration-300 group-hover:-translate-y-3 group-hover:scale-110 group-hover:shadow-[0_0_25px] group-hover:shadow-current`}
-            />
-            <span className="text-sm text-white opacity-70 group-hover:opacity-100 transition">
-              {name}
-            </span>
+            <div className="relative">
+              <Icon
+                className={`cursor-pointer text-[70px] sm:text-[90px] md:text-[100px] ${color} transition-all duration-300 group-hover:-translate-y-3 group-hover:scale-110 group-hover:shadow-[0_0_25px] group-hover:shadow-current`}
+              />
+              {/* Tooltip */}
+              <div className="absolute bottom-[-1.8rem] left-1/2 -translate-x-1/2 whitespace-nowrap bg-black text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-200 z-10">
+                {name}
+              </div>
+            </div>
           </motion.div>
         ))}
       </motion.div>

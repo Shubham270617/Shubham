@@ -6,11 +6,12 @@ const experienceData = [
       title: 'Full Stack Developer',
       company: 'RWS Group ',
       icon: <FaCode className="w-5 h-5 text-pink-400" />,
-      period: 'Aug 2024 - Dec 2024',
+      period: 'Aug 2024 - Present',
       description: [
-        'Developed and maintained web applications using React and Node.js.',
-        'Implemented RESTful APIs and optimized database queries.',
-        'Collaborated with cross-functional teams to enhance product features.'
+        'Spearheaded the development of internal AI-powered tools, contributing to the backendusing Node.js and Express, and managing databases on SQL Server and MongoDB.',
+        'Maintained and upgraded existing systems by integrating REST APIs and enhancingperformance.',
+        'Collaborated cross-functionally with UI/UX and QA teams to streamline user experienceand functionality.',
+        'Developed a comprehensive full-stack Library Management System usingMongoDB, Express.js, React.js, and Node.js (MERN).'
       ]
     },
     {
